@@ -2,6 +2,8 @@
 
 A personal portfolio application built with React and Vite.
 
+**Live Demo**: [https://asishjac.github.io/portfolio-app/](https://asishjac.github.io/portfolio-app/)
+
 ## Features
 
 - **Sidebar Navigation**: Easy access to different sections of the portfolio.
