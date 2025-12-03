@@ -1,0 +1,49 @@
+:root {
+  --sidebar-bg: #0f2540;
+  --sidebar-text: #ffffff;
+  --main-bg: #ffffff;
+  --main-text: #333333;
+  --accent-color: #a0a0a0;
+  --font-serif: 'Georgia', serif;
+  --font-sans: 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--main-bg);
+  color: var(--main-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
