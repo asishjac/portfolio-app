@@ -112,8 +112,8 @@ const Sidebar = () => {
 
             <div className="section">
                 <h3>Links</h3>
-                <p><a href="#">LinkedIn</a></p>
-                <p><a href="#">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/asish-jacob/">LinkedIn</a></p>
+                <p><a href="https://github.com/asishjac">GitHub</a></p>
             </div>
 
             <style>{`
