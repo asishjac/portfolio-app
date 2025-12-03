@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://asishjacob.github.io/portfolio-app",
+  "homepage": "https://asishjac.github.io/portfolio-app",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
